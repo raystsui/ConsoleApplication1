@@ -30,8 +30,8 @@ namespace ConsoleApplication1
         [DllImport("nnotes.dll")]
         public static extern STATUS NSFDbUpdateUnread(HANDLE hDb, HANDLE hUnreadList);
 
-        [DllImport("nnotes.dll")]
-        public static extern bool IDIsPresent(HANDLE hTable, DWORD id);
+        //[DllImport("nnotes.dll")]
+        //public static extern bool IDIsPresent(HANDLE hTable, DWORD id);
 
         [DllImport("nnotes.dll")]
         public static extern bool IDScan(HANDLE hTable, bool first, out HANDLE id);
